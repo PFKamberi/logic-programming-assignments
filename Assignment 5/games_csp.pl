@@ -37,3 +37,4 @@ constraints([L | R], Curr, T, K):-
 	L #=< Curr,
 	Curr1 #= min(Curr - L + K,T),
 	constraints(R, Curr1, T, K).
+
