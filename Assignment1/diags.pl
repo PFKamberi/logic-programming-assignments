@@ -65,7 +65,6 @@ clean(M,I,Acc,Cleaned):-
     I1 is I - 1,
     clean(M,I1,Acc1,Cleaned).
  
-
 mirror([],[]).
 mirror([H|Ts],[H1|R]):-
     reverse(H,H1),
