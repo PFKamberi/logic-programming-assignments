@@ -93,6 +93,4 @@ strip_slashes([], []).
 strip_slashes([_/I| R], [H | T]):-
     H is I,
     strip_slashes(R, T).
-
-
     
