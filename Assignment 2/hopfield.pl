@@ -124,3 +124,4 @@ inn_prod([], [], 0).
 inn_prod([X1|R1], [X2|R2], IP1) :-
    inn_prod(R1, R2, IP2),
    IP1 is IP2 + X1 * X2.
+   
