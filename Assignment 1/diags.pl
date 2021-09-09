@@ -89,3 +89,4 @@ matr_transp(M, []) :-
 matr_transp(M, [C|TM]) :-
    del_first(M, C, RM),
    matr_transp(RM, TM).
+
